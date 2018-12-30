@@ -1,0 +1,13 @@
+﻿<h1>Info:</h1>
+<p>The project is using two API'S of Coinmarketcap (ticker & global) & one main of Worldcoinindex. It may take some time to generate the request, since the connections sometimes are slow. University project to consolidate few different API's.</p>
+
+<h2>Coins related stuff</h2>
+<p>/api/coin/ - Get ALL coins</p>
+<p>/api/coin/symbol - Get specific coin. Use their symbols - e.g. btc, powr, ltc </p>
+<p>/api/coin/timeframe/count - Get MVP coin(s) in the given period ([string]timeframe: { "hour", "day", "week" }, [int]count). It is calculated by the biggest value change percentage in the given period.</p>
+
+<h2>Market related stuff</h2>
+<p>/api/market/total_market_cap_usd - Total market cap in USD$</p>
+<p>/api/market/total_24h_volume_usd - Total 24h cryptocurrency volume in USD$</p>
+<p>/api/market/active_currencies - Number of currently active cryptocurrencies</p>
+<p>/api/market/bitcoin_percentage_of_market_cap - Bitcoin share in total cryptocurrency market expressed in percentages </p>

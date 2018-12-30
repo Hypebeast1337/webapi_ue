@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Crypto_api.Services.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="URL_WCI" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://www.worldcoinindex.com/apiservice/json?key=oaWZ4M8sUhxbAnbRdpByV7fZOle3cN</Value>
+    </Setting>
+    <Setting Name="URL_CMCG" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://api.coinmarketcap.com/v1/global/</Value>
+    </Setting>
+    <Setting Name="URL_CMCT" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://api.coinmarketcap.com/v1/ticker/</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
